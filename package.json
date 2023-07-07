@@ -1,0 +1,20 @@
+{
+  "name": "youtube-clone--html-scss",
+  "version": "1.0.0",
+  "description": "\"youtube clone\"",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./assets/scss/main.scss:./assets/css/style.css --style compressed",
+    "prefix": "postcss ./assets/css/style.css --use autoprefixer -d ./assets/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franckDev21/youtube-clone--HTML-SCSS-.git"
+  },
+  "author": "Francklin Tiomela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franckDev21/youtube-clone--HTML-SCSS-/issues"
+  },
+  "homepage": "https://github.com/franckDev21/youtube-clone--HTML-SCSS-#readme"
+}

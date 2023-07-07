@@ -1,0 +1,66 @@
+.header{
+  background-color: #202020;
+  @include d-flex-b;
+  padding: 10px 20px;
+
+  &__logo{
+    font-family: 'Oswald', sans-serif;
+    @include d-flex-c;
+    font-size: 17px;
+    margin-left: 10px;
+    opacity: 9;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &__left{
+    width: 20%;
+    // background-color: blueviolet;
+    @include d-flex-a;
+  }
+
+  &__center{
+    // background-color: red;
+    width: 50%;
+    height: 33px;
+  }
+
+  &__right{
+    width: 20%;
+    // background-color: green;
+    @include d-flex-b;
+  }
+
+  &__btn{
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right:  18px;
+    @include d-flex;
+    &--toggle{
+      margin-right:  5px;
+    }
+  }
+  &__notify{
+    display: flex;
+    // padding-left: 50%;
+    justify-content: end;
+    width: 88%;
+  }
+  &__profil{
+    flex: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    img{
+      width: 28px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
